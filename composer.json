@@ -1,0 +1,33 @@
+{
+    "name": "amooati/e-commerce",
+    "description": "A wonderful ECommerce package for your needs",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9.3|^10.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Amooati\\ECommerce\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amooati\\ECommerce\\Providers\\ECommerceServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "amooati",
+            "email": "adhamiamirhossein@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
